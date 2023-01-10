@@ -15,7 +15,7 @@ steps:
     version: latest
 - task: RunHawkScan@0
   inputs:
-    configFile: 'stackhawk-test.yml'
+    configFile: 'stackhawk.yml'
     version: 'latest'
   env:
     API_KEY_ENV_VAR: $(API_KEY)
