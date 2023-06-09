@@ -10,10 +10,10 @@ pool:
   vmImage: windows-latest
 
 steps:
-- task: HawkScanInstall@0
+- task: HawkScanInstall@1
   inputs:
     version: latest
-- task: RunHawkScan@0
+- task: RunHawkScan@1
   inputs:
     configFile: 'stackhawk.yml'
     version: 'latest'
