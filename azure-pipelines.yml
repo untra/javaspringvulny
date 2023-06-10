@@ -20,5 +20,5 @@ steps:
   env:
     API_KEY_ENV_VAR: $(API_KEY)
     APP_HOST: https://untra.ngrok.io
-    APP_ID: 53d5ee05-5423-4367-9803-f060c749421e
+    APP_ID: 373c273f-29a0-4406-bc3f-b4059880c8d3
 
