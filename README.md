@@ -179,7 +179,7 @@ Here are examples of how to use HawkScan with differently configured application
 
 ### Example Specs
 
-By default running `hawk scan` will run with the `stackhawk.yml` file in the same directory if it's defined and present, but can instead use named specs such as `hawk scan stackhawk-openapi.yml`. HawkScan also supports layering of multiple specs, such as `hawk scan stackhawk-base.yml stackhawk-windows-custom.yml` for a combined configuration.
+By default running `hawk scan` uses the `stackhawk.yml` file in the same directory if it's defined and present, but can instead use named specs such as `hawk scan stackhawk-openapi.yml`. HawkScan also supports layering of multiple specs, such as `hawk scan stackhawk-base.yml stackhawk-windows-custom.yml` for a combined configuration.
 
 Look for these in the [stackhawk.d](https://github.com/kaakaww/javaspringvulny/tree/main/stackhawk.d) directory: 
 
